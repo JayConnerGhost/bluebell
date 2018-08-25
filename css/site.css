@@ -1,0 +1,24 @@
+@font-face {
+    font-family: DSGabriele;
+    src: url(../assets/fonts/DSGabriele.ttf);
+}
+
+.logo {
+   
+    left: 0;
+    top: 0;
+    float: left;
+}
+
+#header {
+    float: left;
+    font-family: DSGabriele;
+}
+
+#header>#name {
+    font-size: 4em;
+}
+
+#header>#jobTitle{
+    font-size: 2em;
+}
