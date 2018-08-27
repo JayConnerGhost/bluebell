@@ -1,6 +1,45 @@
+:root {
+    --darkBlueBell: #8a4cfa;
+    --lightBlueBell: #34a5f9; 
+    --shadowedBlueBell: #008ee7; 
+}
+
+html{
+    width:100%;
+    height:100%;
+   
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.content-inside {
+    flex: 1 0 auto;
+    color: #000;
+  }
 @font-face {
     font-family: DSGabriele;
     src: url(../assets/fonts/DSGabriele.ttf);
+}
+.logo-footer
+{
+ clear: both;
+height: 200px;
+min-height: 25px;
+max-height: 200px;
+width:100%;
+ 
+/* font-size: 11px; */
+margin-top: auto;
+flex-shrink: 0;
+text-align: right;
 }
 
 .logo {
@@ -22,3 +61,13 @@
 #header>#jobTitle{
     font-size: 2em;
 }
+
+#cards{
+    clear:both;
+}
+
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
