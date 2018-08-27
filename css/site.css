@@ -66,8 +66,18 @@ text-align: right;
     clear:both;
 }
 
-
+.site-nav{
+    clear:both;
+    font-size:1.2em;
+    text-align:right;
+    right:0;
+    position:absolute;
+    
+}
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
  }
+.bg-primary{
+    background-color: var(--darkBlueBell);
+}
