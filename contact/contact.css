@@ -1,0 +1,18 @@
+#contact-methods {
+    clear: both;
+}
+
+.contact-method {
+    display: block;
+}
+
+.contact-method {
+    padding-left: 60px;
+}
+
+i {
+    font-size: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
