@@ -1,0 +1,11 @@
+.person-image {
+    width: 200;
+    height: 250px;
+    clear: both;
+    padding-top: 15px;
+}
+
+.bio {
+    padding-top: 15px;
+    padding-left: 15px;
+}
